@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="adicionarProd.css">
+        <link rel="shortcut icon" href="../imagens/Logo.jpeg" type="image/x-icon">
+        <title>Esme Sweet Cake</title>
+    </head>
+    <body>
+        <header id="home" class="header">
+            <div class="top-header">
+                <div class="logo">
+                    <h1>Esme Sweet Cake</h1>
+                </div>
+            </div>    
+        </header>
+        <div class="main-container">
+            <main class="main">
+                <pre>
+                    <h1>ADICIONAR PRODUTO</h1>
+                    <form action="https://api.sheetmonkey.io/form/qpsJYFRqfHwBSZEzkxTA5a" method="post">
+                        <label id="nome_prod" for="nome_prod">Nome do Produto:</label>
+                        <input type="text" name="nome_prod" placeholder="Insira o Nome do Produto" autofocus required >
+                        <br>
+                        <label id="descricao" for="descricao">Descrição:</label>
+                        <input type="text" name="descricao" placeholder="Insira a Descrição do Produto" required >
+                        <br>
+                        <label id="imagem" for="imagem">Imagem do Produto:</label>
+                        <input type="file" name="imagem" placeholder="Insira sua Imagem" required>
+                        <button type="submit" class="btn2"><p class="txtB">Enviar</p></button>
+                        
+                    </form>
+                
+                    <button type="button" class="btn"><p><a href="../index.html"><img src="../assets/img/voltar.png" alt="voltar" class="btn-img"/></a></p>
+                    </button>
+                </pre>
+            </main>
+        </div>
+        <footer class="footer">Desenvolvido por InovaDevs</footer>
+
+        <script> src="js/adicionarProd.js"</script>
+    </body>
+</html>
